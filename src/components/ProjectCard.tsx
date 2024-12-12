@@ -48,6 +48,7 @@ const ProjectCard = ({
         {sourceUrl && (
           <a 
             href={sourceUrl}
+            target="_blank"
             className="inline-flex items-center gap-2 px-3 py-2 bg-white text-black rounded-full text-xs sm:text-sm lg:text-xs font-medium hover:bg-gray-100 transition-colors"
           >
             <Github size={12} />
