@@ -51,7 +51,6 @@ interface NavItemProps {
 const NavItem: React.FC<NavItemProps> = ({
   icon,
   label,
-  isActive,
   href,
   external,
   onClick,
